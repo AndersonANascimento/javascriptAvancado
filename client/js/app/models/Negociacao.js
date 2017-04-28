@@ -16,7 +16,6 @@ class Negociacao {
         return this._valor;
     }
     get volume() {
-        console.log('método');
         return this.quantidade * this.valor;
     }
 }
